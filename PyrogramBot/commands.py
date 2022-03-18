@@ -42,6 +42,6 @@ async def callback(bot,query:  CallbackQuery):
             text="/tgraph"
         )
             reply_markup=InlineKeyboardMarkup( [[
-                 InlineKeyboardButton("start", callback_data="start")
+                 InlineKeyboardButton("song", callback_data="song")
                  ]]           
                  )
